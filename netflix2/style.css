@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.65),    rgba(0, 0, 0, 0.65)), url(./images/netflix.jpg), no-repeat;
+    height: 100vh;
+}
+
+header {
+
+    margin: 0px 20px;
+
+}
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 13%;
+
+}
+
+.nav_bar a {
+    text-decoration: none;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 8px 17px;
+    margin-right: 50px;
+    border-radius: 6px;
+
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 105px;
+   
+    line-height: 60px;
+}
+
+.text .text_one {
+    font-size: 53px;
+    padding-bottom: 10px;
+
+}
+
+.paragragh_one {
+
+    font-size: 23px;
+}
+
+.paragragh_two {
+    font-size: 20px;
+}
+
+.search_bar {
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar input {
+    height: 60px;
+}
+
+input {
+    width: 38%;
+    outline: none;
+    padding-left: 10px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: rgb(158, 158, 158);
+    font-family: sans-serif;
+
+}
+
+.start {
+    background-color: rgb(225, 7, 18);
+    width: 15%;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.start a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
